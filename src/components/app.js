@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Chat from './chat';
 import Home from './home';
 import Nav from './nav';
+import SetName from './set_name';
 
 const App = () => (
     <div>
@@ -12,6 +13,7 @@ const App = () => (
         <div className="container">
             <Route exact path="/" component={Home}/>
             <Route path="/chat" component={Chat}/>
+            <Route path="/set-name" component={SetName}/>
         </div>
     </div>
 );
